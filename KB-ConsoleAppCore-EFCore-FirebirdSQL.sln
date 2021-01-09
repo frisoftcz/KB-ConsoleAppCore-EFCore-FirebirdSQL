@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KB-ConsoleAppCore-EFCore-FirebirdSQL", "KB-ConsoleAppCore-EFCore-FirebirdSQL\KB-ConsoleAppCore-EFCore-FirebirdSQL.csproj", "{46FE824D-ABBD-43A9-87CF-0B2127D8FD2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EBD0C0C-E903-40C7-AC43-71A738829D1B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
