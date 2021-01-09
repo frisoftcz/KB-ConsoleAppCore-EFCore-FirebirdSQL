@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>KB_ConsoleAppCore_EFCore_FirebirdSQL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebirdSql.EntityFrameworkCore.Firebird" Version="7.10.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KB-ConsoleAppCore-EFCore-FirebirdSQL", "KB-ConsoleAppCore-EFCore-FirebirdSQL\KB-ConsoleAppCore-EFCore-FirebirdSQL.csproj", "{46FE824D-ABBD-43A9-87CF-0B2127D8FD2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46FE824D-ABBD-43A9-87CF-0B2127D8FD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FE824D-ABBD-43A9-87CF-0B2127D8FD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FE824D-ABBD-43A9-87CF-0B2127D8FD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FE824D-ABBD-43A9-87CF-0B2127D8FD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12F299C3-B8AD-4D07-A576-C4739114F590}
+	EndGlobalSection
+EndGlobal
