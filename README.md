@@ -1,2 +1,4 @@
 # KB-ConsoleAppCore-EFCore-FirebirdSQL
-KB-ConsoleAppCore-EFCore-FirebirdSQL Basic, ConcurencyUpdate
+KB-ConsoleAppCore-EFCore-FirebirdSQL
+- Basic
+- ConcurencyUpdate
