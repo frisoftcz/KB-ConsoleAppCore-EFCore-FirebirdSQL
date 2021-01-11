@@ -3,11 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KB-ConsoleAppCore-EFCore-FirebirdSQL", "KB-ConsoleAppCore-EFCore-FirebirdSQL\KB-ConsoleAppCore-EFCore-FirebirdSQL.csproj", "{46FE824D-ABBD-43A9-87CF-0B2127D8FD2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KB-ConsoleAppCore-EFCore-FirebirdSQL", "KB-ConsoleAppCore-EFCore-FirebirdSQL\KB-ConsoleAppCore-EFCore-FirebirdSQL.csproj", "{46FE824D-ABBD-43A9-87CF-0B2127D8FD2E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EBD0C0C-E903-40C7-AC43-71A738829D1B}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FBDatabase", "FBDatabase", "{6B70429F-8C4A-429E-9A38-4AE652B484AD}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\FBDatabase\FB_DATABASE.FDB = SolutionItems\FBDatabase\FB_DATABASE.FDB
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreateDatabase", "CreateDatabase", "{8859844C-11A7-495D-A3FC-B6B77ECAA298}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\CreateDatabase\CREATE_DATABASE.sql = SolutionItems\CreateDatabase\CREATE_DATABASE.sql
+		SolutionItems\CreateDatabase\CreateDB.cmd = SolutionItems\CreateDatabase\CreateDB.cmd
+		SolutionItems\CreateDatabase\FB_DATABASE_1.sql = SolutionItems\CreateDatabase\FB_DATABASE_1.sql
+		SolutionItems\CreateDatabase\fbclient.dll = SolutionItems\CreateDatabase\fbclient.dll
+		SolutionItems\CreateDatabase\firebird.msg = SolutionItems\CreateDatabase\firebird.msg
+		SolutionItems\CreateDatabase\INSERT_DATA.sql = SolutionItems\CreateDatabase\INSERT_DATA.sql
+		SolutionItems\CreateDatabase\isql.exe = SolutionItems\CreateDatabase\isql.exe
+		SolutionItems\CreateDatabase\UDF_DEF.sql = SolutionItems\CreateDatabase\UDF_DEF.sql
 	EndProjectSection
 EndProject
 Global
@@ -23,6 +40,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B70429F-8C4A-429E-9A38-4AE652B484AD} = {1EBD0C0C-E903-40C7-AC43-71A738829D1B}
+		{8859844C-11A7-495D-A3FC-B6B77ECAA298} = {1EBD0C0C-E903-40C7-AC43-71A738829D1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12F299C3-B8AD-4D07-A576-C4739114F590}
