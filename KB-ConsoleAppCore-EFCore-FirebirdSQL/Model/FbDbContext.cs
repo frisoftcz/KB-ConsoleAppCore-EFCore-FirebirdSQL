@@ -13,7 +13,7 @@ namespace KB_ConsoleAppCore_EFCore_FirebirdSQL.Model
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseFirebird(@"database=localhost:C:\DotNetCoreProjects\Console_EF_FB_1\Console_EF_FB_1\FBDatabase\FB_Database_1.FDB;user=sysdba;password=masterkey");
+      optionsBuilder.UseFirebird(@"datasource=localhost;database=C:\DotNetCoreProjects\Console_EF_FB_1\Console_EF_FB_1\FBDatabase\FB_Database_1.FDB;user=sysdba;password=masterkey");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
